@@ -11,5 +11,12 @@ Categorías de productos:
 
 Apuntamos tanto a gamers casuales como profesionales, creadores de contenido y entusiastas de la tecnología. Queremos ofrecer un espacio donde los jugadores de todas las edades encuentren productos de calidad, buenos precios y una tienda confiable para potenciar su experiencia de juego.
 
+Sitios de referencia:
+  - Epic (https://store.epicgames.com/) Inicio de Sesión y Registro muy cómodos de usar.
+  - FullH4rd (https://fullh4rd.com.ar/) disposición de la Home Page.
+  - Nexo (https://www.nexosrltdf.com/) Carrito intuitivo y facil de usar.
+  - GameStop (https://www.gamestop.com/) buen Detalle de producto.
+  - PcComponentes (https://www.pccomponentes.com/) disposición de la Home Page.
+
 Sobre mí:
 Aunque soy una jugadora casual, me encanta disfrutar de mis tiempos libres y momentos de relajación jugando. Además, por mis estudios y pasiones, paso mucho tiempo cerca de mi computadora, por lo que también me interesan los periféricos y el armado de PC. La idea de contar con una tienda que ofrezca todos estos productos en un solo lugar me parece una excelente propuesta.
