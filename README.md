@@ -20,3 +20,6 @@ Sitios de referencia:
 
 Sobre mí:
 Aunque soy una jugadora casual, me encanta disfrutar de mis tiempos libres y momentos de relajación jugando. Además, por mis estudios y pasiones, paso mucho tiempo cerca de mi computadora, por lo que también me interesan los periféricos y el armado de PC. La idea de contar con una tienda que ofrezca todos estos productos en un solo lugar me parece una excelente propuesta.
+
+Tablero de trabajo:
+  [PlayHeaven Tablero - Notion](https://www.notion.so/DPFS-PlayHeaven-1ccdd64a83f88094a0e7f89b39c70f28?pvs=4)

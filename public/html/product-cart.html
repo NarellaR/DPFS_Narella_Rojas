@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito | PlayHeaven</title>
+    <link rel="stylesheet" href='/css/product-cart.css'>
+
+        <!-- Remixicon https://remixicon.com/ -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="logo"><img src="\img\logo.png" alt="logo-ph" height="40"> PlayHeaven</div>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="search-login">
+        <a href="/html/product-cart.html"><button class="carrito"><i class="ri-shopping-cart-2-line"></i></button></a>
+        <button class="search"><input type="text" placeholder="Buscar..."><i class="ri-search-line"></i></button>
+        <a href="/html/login.html"><button class="perfil">Iniciar Sesión</button></a>
+    </div>
+</header>
+
+<!-- MAIN -->
+<main class="cart-page">
+
+<!-- LISTA DE PRODUCTOS -->
+    <section class="cart-items-list">
+      <h2>Mi Carrito</h2>
+      <div class="cart-item">
+        <img src="/img/hardware1.png" alt="Xbox Series X Console" />
+        <div class="item-info">
+          <h3>MICROSOFT XBOX SERIES X CONSOLE</h3>
+          <p class="unit-price">Precio Unitario: <span>$1.139.999</span></p>
+        </div>
+        <div class="item-qty">
+          <button class="qty-btn"><i class="ri-subtract-fill"></i></button>
+          <input type="number" value="1" min="1" />
+          <button class="qty-btn"><i class="ri-add-fill"></i></button>
+        </div>
+        <p class="item-total">$1.139.999</p>
+        <button class="remove"><i class="ri-delete-bin-line"></i></button>
+      </div>
+      <div class="cart-item">
+        <img src="/img/juego1.png" alt="Metaphor" />
+        <div class="item-info">
+          <h3>METAPHOR: REFANTAZIO - XBOX SERIES X</h3>
+          <p class="unit-price">Precio Unitario: <span>$169.999</span></p>
+        </div>
+        <div class="item-qty">
+          <button class="qty-btn"><i class="ri-subtract-fill"></i></button>
+          <input type="number" value="2" min="1" />
+          <button class="qty-btn"><i class="ri-add-fill"></i></button>
+        </div>
+        <p class="item-total">$339.998</p>
+        <button class="remove"><i class="ri-delete-bin-line"></i></button>
+      </div>
+      <div class="cart-item">
+        <img src="/img/periferico1.png" alt="Auricular Future Sound" />
+        <div class="item-info">
+          <h3>AURICULAR FUTURE SOUND XH150</h3>
+          <p class="unit-price">Precio Unitario: <span>$19.700</span></p>
+        </div>
+        <div class="item-qty">
+          <button class="qty-btn"><i class="ri-subtract-fill"></i></button>
+          <input type="number" value="1" min="1" />
+          <button class="qty-btn"><i class="ri-add-fill"></i></button>
+        </div>
+        <p class="item-total">$19.700</p>
+        <button class="remove"><i class="ri-delete-bin-line"></i></button>
+      </div>
+    </section>
+
+<!-- RESUMEN DEL PEDIDO -->
+    <aside class="order-summary">
+      <h2>Resumen del Pedido</h2>
+      <div class="summary-line">
+        <span>Subtotal:</span>
+        <span class="value">$1.499.697</span>
+      </div>
+      <div class="summary-line">
+        <span>Envío:</span>
+        <span class="value">$303</span>
+      </div>
+      <div class="summary-line">
+        <span>Descuento:</span>
+        <a href="#" class="apply-code">Agregar código de descuento</a>
+      </div>
+      <div class="summary-total">
+        <span>TOTAL</span>
+        <span class="value">$1.500.000</span>
+      </div>
+      <button class="checkout-btn">Finalizar Compra</button>
+    </aside>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-col logo-section">
+      <img src="/img/logo.png" alt="PlayHeaven" class="logo-footer">
+      <p class="marca">PlayHeaven</p>
+      <p class="slogan">Tu paraíso gamer está a un clic</p>
+      <p class="social-title">Síguenos</p>
+      <div class="social-icons">
+        <a href="#" class="redes"><i class="ri-facebook-line"></i></a>
+        <a href="#" class="redes"><i class="ri-instagram-line"></i></i></a>
+        <a href="#" class="redes"><i class="ri-linkedin-box-line"></i></i></a>
+        <a href="#" class="redes"><i class="ri-tiktok-line"></i></i></a>
+        <a href="#" class="redes"><i class="ri-twitter-x-line"></i></a>
+      </div>
+    </div>
+  
+    <div class="footer-col">
+      <h4>Empresa</h4>
+      <ul>
+        <li><a href="#">Acerca de nosotros</a></li>
+        <li><a href="#">Empleo</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </div>
+  
+    <div class="footer-col">
+      <h4>Soporte</h4>
+      <ul>
+        <li><a href="#">Descargas</a></li>
+        <li><a href="#">Asistencia al cliente</a></li>
+        <li><a href="#">Garantía</a></li>
+        <li><a href="#">Envíos/Devoluciones</a></li>
+        <li><a href="#">Condiciones de venta</a></li>
+      </ul>
+    </div>
+  
+    <div class="footer-col">
+      <h4>Comprar</h4>
+      <ul>
+        <li><a href="#">Hardware</a></li>
+        <li><a href="#">Juegos</a></li>
+        <li><a href="#">Consolas</a></li>
+        <li><a href="#">Accesorios</a></li>
+      </ul>
+    </div>
+  
+    <div class="footer-col contacto">
+      <h4>Contáctanos</h4>
+      <p><i class="ri-phone-line"></i> (99) 99999 999-999</p>
+      <p><i class="ri-mail-line"></i> soporte_ph@gmail.com</p>
+    </div>
+</footer>
+<footer class="footer-bottom">
+    <p>&copy; 2025 PlayHeaven. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>

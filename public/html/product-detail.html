@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre del Producto | PlayHeaven</title>
+
+    <link rel="stylesheet" href='/css/product-detail.css'>
+
+        <!-- Remixicon https://remixicon.com/ -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+<!-- HEADER -->
+<header>
+    <div class="logo"><img src="\img\logo.png" alt="logo-ph" height="40"> PlayHeaven</div>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="search-login">
+        <a href="/html/product-cart.html"><button class="carrito"><i class="ri-shopping-cart-2-line"></i></button></a>
+        <button class="search"><input type="text" placeholder="Buscar..."><i class="ri-search-line"></i></button>
+        <a href="/html/login.html"><button class="perfil">Iniciar Sesión</button></a>
+    </div>
+</header>
+<main class="detalle-producto">
+
+<!-- SECCIÓN PRINCIPAL (sin imagen) -->
+<section class="producto-principal">
+  <div class="galeria-imagenes">
+    <img src="/img/sin-imagen.jpg" alt="Imagen principal del producto" class="imagen-principal">
+    <div class="miniaturas">
+      <img src="/img/sin-imagen.jpg" alt="Miniatura 1">
+      <img src="/img/sin-imagen.jpg" alt="Miniatura 2">
+      <img src="/img/sin-imagen.jpg" alt="Miniatura 3">
+    </div>
+  </div>
+  
+  <div class="info-producto">
+    <h1 class="nombre-producto">NOMBRE DEL ARTICULO</h1>
+    <p class="precio-producto">$999.999</p>
+  
+    <form class="formulario-compra">
+      <div class="campo-formulario">
+        <label for="color">Color:</label>
+        <select id="color" name="color">
+          <option value="">Seleccione un color</option>
+          <!-- Opciones de color -->
+        </select>
+      </div>
+  
+      <div class="campo-formulario">
+        <label for="cantidad">Cantidad:</label>
+        <select id="cantidad" name="cantidad">
+          <option value="1">1</option>
+          <!-- Más opciones si querés -->
+        </select>
+      </div>
+  
+      <div class="botones-compra">
+        <button type="button" class="btn-agregar">Agregar al Carrito</button>
+        <button type="submit" class="btn-comprar">Realizar Compra</button>
+      </div>
+    </form>
+  </div>
+</section>
+  
+<!-- DETALLES TÉCNICOS -->
+<section class="detalle-tecnico">
+  <h2>Detalles</h2>
+  
+  <div class="detalle-categoria">
+    <h3>Categoria 1</h3>
+    <ul>
+      <li><strong>Caracteristica 0:</strong> Información</li>
+      <li><strong>Caracteristica 1:</strong> Información</li>
+      <li><strong>Caracteristica 2:</strong> Información</li>
+      <li><strong>Caracteristica 3:</strong> Información</li>
+      <li><strong>Caracteristica 4:</strong> Información</li>
+      <li><strong>Caracteristica 5:</strong> Información</li>
+    </ul>
+  </div>
+  
+  <div class="detalle-categoria">
+    <h3>Categoria 2</h3>
+    <ul>
+      <li><strong>Caracteristica 0:</strong> Información</li>
+      <li><strong>Caracteristica 1:</strong> Información</li>
+      <li><strong>Caracteristica 2:</strong> Información</li>
+      <li><strong>Caracteristica 3:</strong> Información</li>
+      <li><strong>Caracteristica 4:</strong> Información</li>
+      <li><strong>Caracteristica 5:</strong> Información</li>
+    </ul>
+  </div>
+</section>
+  
+<!-- SECCIÓN RELACIONADOS (sin carrusel) -->
+<section class="productos-relacionados">
+  <h2>Productos Relacionados</h2>
+
+  <div class="carrusel-contenedor">
+    <button class="flecha izquierda">&#8249;</button>
+
+    <div class="productos">
+      <a href="/html/product-detail.html" class="producto-relacionado">
+        <img src="/img/sin-imagen.jpg" alt="Producto relacionado 1">
+        <h3>NOMBRE</h3>
+        <p class="precio">$999.999 </p>
+      </a>
+      <a href="/html/product-detail.html" class="producto-relacionado">
+        <img src="/img/sin-imagen.jpg" alt="Producto relacionado 2">
+        <h3>NOMBRE</h3>
+        <p class="precio">$999.999 </p>
+      </a>
+      <a href="/html/product-detail.html" class="producto-relacionado">
+        <img src="/img/sin-imagen.jpg" alt="Producto relacionado 3">
+        <h3>NOMBRE</h3>
+        <p class="precio">$999.999 </p>
+      </a>
+      <a href="/html/product-detail.html" class="producto-relacionado">
+        <img src="/img/sin-imagen.jpg" alt="Producto relacionado 4">
+        <h3>NOMBRE</h3>
+        <p class="precio">$999.999 </p>
+      </a>
+    </div>
+
+    <button class="flecha derecha">&#8250;</button>
+  </div>
+</section>
+</main> 
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-col logo-section">
+    <img src="/img/logo.png" alt="PlayHeaven" class="logo-footer">
+    <p class="marca">PlayHeaven</p>
+    <p class="slogan">Tu paraíso gamer está a un clic</p>
+    <p class="social-title">Síguenos</p>
+    <div class="social-icons">
+      <a href="#" class="redes"><i class="ri-facebook-line"></i></a>
+      <a href="#" class="redes"><i class="ri-instagram-line"></i></i></a>
+      <a href="#" class="redes"><i class="ri-linkedin-box-line"></i></i></a>
+      <a href="#" class="redes"><i class="ri-tiktok-line"></i></i></a>
+      <a href="#" class="redes"><i class="ri-twitter-x-line"></i></a>
+    </div>
+  </div>
+
+  <div class="footer-col">
+    <h4>Empresa</h4>
+    <ul>
+      <li><a href="#">Acerca de nosotros</a></li>
+      <li><a href="#">Empleo</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </div>
+
+  <div class="footer-col">
+    <h4>Soporte</h4>
+    <ul>
+      <li><a href="#">Descargas</a></li>
+      <li><a href="#">Asistencia al cliente</a></li>
+      <li><a href="#">Garantía</a></li>
+      <li><a href="#">Envíos/Devoluciones</a></li>
+      <li><a href="#">Condiciones de venta</a></li>
+    </ul>
+  </div>
+
+  <div class="footer-col">
+    <h4>Comprar</h4>
+    <ul>
+      <li><a href="#">Hardware</a></li>
+      <li><a href="#">Juegos</a></li>
+      <li><a href="#">Consolas</a></li>
+      <li><a href="#">Accesorios</a></li>
+    </ul>
+  </div>
+
+  <div class="footer-col contacto">
+    <h4>Contáctanos</h4>
+    <p><i class="ri-phone-line"></i> (99) 99999 999-999</p>
+    <p><i class="ri-mail-line"></i> soporte_ph@gmail.com</p>
+  </div>
+</footer>
+<footer class="footer-bottom">
+    <p>&copy; 2025 PlayHeaven. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
